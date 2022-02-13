@@ -8,7 +8,7 @@ import HeaderLink from './HeaderLink';
 const SliderNav = ({hideMenu}) => {
     return (
         <div className='flex fixed top-0 right-0 h-screen w-full'>
-            <div className='w-1/4  sm:w-2/4 blur-lg'> 
+            <div className='w-1/4  sm:w-2/4 blur-lg' onClick={() => hideMenu('false')} > 
 
             </div>
 

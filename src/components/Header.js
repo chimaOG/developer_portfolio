@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <div className='h-24 flex w-full bg-background bg-opacity-50 z-40'>
-            <nav className='w-full flex items-center justify-between px-12'>
+            <nav className='w-full flex items-center justify-between px-8'>
                 <div className='text-light_green'>
                     <img src={logo} className = 'w-14'/>
                 </div>
@@ -28,7 +28,7 @@ const Header = () => {
                     <HeaderLink address = {'#'} num = {'02.'} title = {'Experience'}/>
                     <HeaderLink address = {'#'} num = {'03.'} title = {'Projects'}/>
                     <HeaderLink address = {'#'} num = {'04.'} title = {'Contact'}/>
-                    <button className = 'border border-light_green text-light_green text-sm ml-5 rounded-lg p-1 w-24 font-serif '>
+                    <button className = 'border border-light_green text-light_green text-sm ml-5 rounded-lg px-7 py-2 w-24 font-serif hover:bg-dark_green'>
                         Resume
                     </button>
                 </div>
