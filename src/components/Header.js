@@ -28,7 +28,7 @@ const Header = () => {
                     <HeaderLink address = {'#'} num = {'02.'} title = {'Experience'}/>
                     <HeaderLink address = {'#'} num = {'03.'} title = {'Projects'}/>
                     <HeaderLink address = {'#'} num = {'04.'} title = {'Contact'}/>
-                    <button className = 'border border-light_green text-light_green text-sm ml-5 rounded-lg px-7 py-2 w-24 font-serif hover:bg-dark_green'>
+                    <button className = 'border border-light_green text-light_green text-sm ml-5 rounded-lg py-2 w-24 font-serif hover:bg-dark_green'>
                         Resume
                     </button>
                 </div>
