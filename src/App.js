@@ -7,6 +7,7 @@ import RightFixed from './components/RightFixed';
 import Banner from './components/Banner';
 import About from './components/About';
 import WorkExperience from './components/WorkExperience';
+import Project from './components/Project';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Banner />
         <About />
         <WorkExperience />
+        <Project />
         <div className='w-full h-40'></div>
       </main>
     </div>

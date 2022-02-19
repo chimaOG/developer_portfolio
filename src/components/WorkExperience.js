@@ -54,12 +54,12 @@ const WorkExperience = () => {
     ]
 
     return (
-        <div className = 'md:ml-10 mt-48'>
+        <div className = 'md:ml-36 mt-48'>
             <div className = 'flex items-center'>
-                <p className={`text-title_colors  text-2xl md:text-3xl font-serif w-80`}> 
+                <p className={`text-title_colors  text-2xl md:text-3xl font-serif w-96`}> 
                     <span className='text-light_green mr-3'>02. </span> Where I've Worked
                 </p>
-                <div className = 'h-px w-52 bg-text_dark_grey ml-5' style={{backgroundColor:'#233554'}}>
+                <div className = 'h-px w-32 md:w-52 bg-text_dark_grey ml-3 md:ml-5' style={{backgroundColor:'#233554'}}>
                 </div>
             </div>
             <div className = 'flex flex-col md:flex-row mt-10'>
@@ -94,7 +94,7 @@ const WorkExperience = () => {
                         FMDQ 
                     </Link>
                 </div>
-                <div className = 'w-4/5 h-48 mt-8 md:mt-2'>
+                <div className = 'w-4/5  mt-8 md:mt-2'>
                     <Routes>
                         <Route path = '/' element = { <JobDetails  jobData={jobs[0]} />} />
                         <Route path = '/abi1' element = { <JobDetails jobData={jobs[1]}  />} />

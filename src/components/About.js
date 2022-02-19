@@ -10,11 +10,11 @@ const About = () => {
         <div className='text-banner_light mt-96 md:ml-10'>
 
             <div className='flex items-center'>
-                <p className={`text-title_colors  text-2xl md:text-3xl font-serif w-52`}> 
+                <p className={`text-title_colors  text-2xl md:text-3xl font-serif w-44`}> 
                     <span className='text-light_green mr-3'>01. </span> About Me
                 </p>
 
-                <div className = 'h-px w-52 bg-text_dark_grey' style={{backgroundColor:'#233554'}}>
+                <div className = 'h-px  w-44 md:w-52 bg-text_dark_grey' style={{backgroundColor:'#233554'}}>
                 </div>
             </div>
 
