@@ -11,6 +11,9 @@ module.exports = {
         text_dark_grey: "var(--text_dark_grey)",
         background: "var(--background)",
         menu_background: "var(--menu_background)",
+        title_colors: "var(--title_colors)",
+        light_border: "var(--light_border)",
+        tab_bg: "var(--tab_bg)",
       }
     },
   },

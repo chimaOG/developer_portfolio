@@ -7,10 +7,10 @@ import styles from '../css/about.module.css';
 
 const About = () => {
     return (
-        <div className='text-banner_light my-96 ml-10'>
+        <div className='text-banner_light mt-96 md:ml-10'>
 
             <div className='flex items-center'>
-                <p className={`text-white  text-3xl font-serif w-52`}> 
+                <p className={`text-title_colors  text-2xl md:text-3xl font-serif w-52`}> 
                     <span className='text-light_green mr-3'>01. </span> About Me
                 </p>
 
@@ -19,7 +19,7 @@ const About = () => {
             </div>
 
             <div className='w-full flex flex-col md:flex-row  font-serif text-banner_light text-base tracking-widest leading-loose'>
-                <div className={` w-4/5 md:w-3/5  mt-16`}>
+                <div className={` w-5/5 md:w-3/5  mt-16`}>
                     <p>
                         Hello! My name is Brittany and I enjoy creating things that live on the internet. 
                         My interest in web development started back in 2012 when I decided to try editing 
