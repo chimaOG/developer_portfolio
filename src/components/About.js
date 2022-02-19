@@ -2,7 +2,7 @@ import React from 'react'
 
 import {BiRightArrow} from 'react-icons/bi';
 
-import headImage from '../assets/personal_image.jpg';
+import headImage from '../assets/personal_image.jpeg';
 import styles from '../css/about.module.css';
 
 const About = () => {

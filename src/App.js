@@ -8,6 +8,8 @@ import Banner from './components/Banner';
 import About from './components/About';
 import WorkExperience from './components/WorkExperience';
 import Project from './components/Project';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 
@@ -18,14 +20,15 @@ function App() {
         <Header />
       </Headroom>
 
-      <main className = ' px-7 sm:px-12 md:px-24 lg:px-36 2xl:px-96 mt-20 md:mt-52 bg-background'>
+      <main className = ' px-7 sm:px-12 md:px-24 lg:px-36 2xl:px-96 mt-10 md:mt-52 bg-background'>
         <LeftFixed />
         <RightFixed />
         <Banner />
         <About />
         <WorkExperience />
         <Project />
-        <div className='w-full h-40'></div>
+        <Contact />
+        <Footer />
       </main>
     </div>
   );
