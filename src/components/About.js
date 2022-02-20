@@ -7,7 +7,7 @@ import styles from '../css/about.module.css';
 
 const About = () => {
     return (
-        <div className='text-banner_light mt-96 md:ml-10'>
+        <div className='text-banner_light mt-96 md:ml-10' id='about'>
 
             <div className='flex items-center'>
                 <p className={`text-title_colors  text-2xl md:text-3xl font-serif w-44`}> 
@@ -18,41 +18,39 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='w-full flex flex-col md:flex-row  font-serif text-banner_light text-base tracking-widest leading-loose'>
+            <div className='w-full flex flex-col md:flex-row  font-serif text-banner_light text-lg tracking-wide leading-loose'>
                 <div className={` w-5/5 md:w-3/5  mt-16`}>
                     <p>
-                        Hello! My name is Brittany and I enjoy creating things that live on the internet. 
-                        My interest in web development started back in 2012 when I decided to try editing 
-                        custom Tumblr themes — turns out hacking together a custom reblog button taught me 
-                        a lot about HTML & CSS!
+                        Hello! My name is Samuel, a <span class='text-light_green'>Full stack web developer</span> and <span class='text-light_green'>Computer Vision Engineer</span>. 
+                        I took my first coding class in 2015 and in the 6 years since then, I have gone on to become proficient in a 
+                        wide range of programming languages and technologies. 
                     </p>
                     <p className = 'mt-7'>
-                        Fast-forward to today, and I’ve had the privilege of working at an advertising agency, 
-                        a start-up, a huge corporation, and a student-led design studio. My main focus these 
-                        days is building accessible, inclusive products and digital experiences at Upstatement 
-                        for a variety of clients.
+                        I currently work as a <span class='text-light_green'>computer vision at the Africa Innovation center of Anheuser-Busch InBev - the worlds biggest brewer.</span> My 
+                        early work at the company involved managing the end-to-end computer vision model development process from dataset curation 
+                        to algorithm selection, model training, model testing and deployment. In my current position, I lead a team of AI and IOT engineers 
+                        to tackle the challenge of revolutionising the African retail sector.
                     </p>
                     <p className = 'mt-7'>
-                        I also recently launched a course that covers everything you need to build a web app with
-                         the Spotify API using Node & React
+                        I also serve as the <span class='text-light_green'>Lead Backend Engineer at Jamly Africa,</span> where we're building solutions that will help small businesses to easily establish an online presence.
                     </p>
                     <div className = 'flex mt-7 w-full text-sm'>
                         <div className='w-1/2'>
                             <p className = 'w-full flex items-center'> 
-                                <span>< BiRightArrow className='text-sm text-light_green mr-5' /></span>JavaScripters
+                                <span>< BiRightArrow className='text-sm text-light_green mr-5' /></span>JavaScript (ES6+)
                             </p>
                             
                             <p className = 'w-full flex items-center mt-3'> 
-                                <span>< BiRightArrow className='text-sm text-light_green mr-5' /></span>JavaScripters
+                                <span>< BiRightArrow className='text-sm text-light_green mr-5' /></span>React
                             </p>
                         </div>
                         <div className='w-1/2'>
                             <p className = 'w-full flex items-center'> 
-                                <span>< BiRightArrow className='text-sm text-light_green mr-5' /></span>JavaScripters
+                                <span>< BiRightArrow className='text-sm text-light_green mr-5' /></span>Python
                             </p>
                             
                             <p className = 'w-full flex items-center mt-3'> 
-                                <span>< BiRightArrow className='text-sm text-light_green mr-5' /></span>JavaScripters
+                                <span>< BiRightArrow className='text-sm text-light_green mr-5' /></span>Django
                             </p>
                         </div>
                     </div>

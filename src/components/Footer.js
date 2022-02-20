@@ -6,7 +6,7 @@ const Footer = () => {
             <a href = 'https://brittanychiang.com/'
             target='_blank'
                 className = 'text-banner_grey hover:text-light_green text-sm'>
-                <p>Website Designed by Brittany Chang</p>
+                <p>Website Design Inspired by Brittany Chang</p>
             </a>
         </div>
     )

@@ -13,11 +13,11 @@ const WorkExperience = () => {
         {
             title: 'Lead Backend Developer',
             company: 'Jamly',
-            period: 'Dec 2021 - present',
+            period: 'Oct 2021 - present',
             points: [
-                'System architecture and solution design for a SaaS solution',
-                'Designing and implementing client dashboards with Python and React. This involves data cleaning, analysis, and visualization',
-                'Backend development with Django and Frontend development with React',
+                'System architecture and solution design for a scalable SaaS solution.',
+                'Write modern, performant, maintainable code that perfectly satisfies the user requiremetns.',
+                'Backend development with Django and Frontend development with ReactJS',
             ]
         },
         {
@@ -25,9 +25,9 @@ const WorkExperience = () => {
             company: 'AbInBev',
             period: 'April 2021 - present',
             points: [
-                'System architecture and solution design for a SaaS solution',
-                'Designing and implementing client dashboards with Python and React. This involves data cleaning, analysis, and visualization',
-                'Backend development with Django and Frontend development with React',
+                'Designing & implementing extended functionality for existing computer vision models',
+                'Technical lead for a Retail Project collects a live stream of images from retail stores and extract insights about consumer behavior using object detection and tracking.',
+                'Implemented features include human detection, object tracking, handling object occlusion and the integrating IOT device output with web dashboards in real time.',
             ]
         },
         {
@@ -35,9 +35,9 @@ const WorkExperience = () => {
             company: 'AbInBev',
             period: 'February 2022 - April,2021',
             points: [
-                'System architecture and solution design for a SaaS solution',
-                'Designing and implementing client dashboards with Python and React. This involves data cleaning, analysis, and visualization',
-                'Backend development with Django and Frontend development with React',
+                'Trained, tested, and deployed instance segmentation and object detection models to track product visibility, pricing information and marketing effectiveness. Deployment of these models led to a 13% increase in sales volume in Nigeria (930k USD).',
+                'Managed the end-to-end computer vision model development process from dataset curation to algorithm selection, model training, model testing and deployment.',
+                'Implemented custom OCR model for extracting pricing information from price posters in key sales venues.',
             ]
         },
         {
@@ -45,16 +45,15 @@ const WorkExperience = () => {
             company: 'FMDQ Group',
             period: 'February 2019 - October, 2019',
             points: [
-                'System architecture and solution design for a SaaS solution',
-                'Designing and implementing client dashboards with Python and React. This involves data cleaning, analysis, and visualization',
-                'Backend development with Django and Frontend development with React',
+                'Carried out global benchmarking for a fin-tech company. This served as a guide for the definition of organizational structure, product offerings, revenue model and targets/KPIs.',
+                'Used statistical software to analyze financial and economic data relevant for corporate strategy.',
             ]
         },
 
     ]
 
     return (
-        <div className = 'md:ml-36 mt-48'>
+        <div className = 'md:ml-36 mt-48' id='work_experience'>
             <div className = 'flex items-center'>
                 <p className={`text-title_colors  text-2xl md:text-3xl font-serif w-96`}> 
                     <span className='text-light_green mr-3'>02. </span> Where I've Worked
@@ -66,7 +65,7 @@ const WorkExperience = () => {
                 <div className = 'w-full md:w-1/6 flex md:flex-col text-banner_light mr-5'>
                     <Link
                         to={'/'}
-                        className = {`h-1/4 w-1/4 md:w-full md:pl-5 flex justify-center md:justify-start items-center hover:text-light_green hover:bg-tab_bg border-b-2 md:border-0 md:border-l-2 ${jobPath === 'jamly' ? 'border-light_green text-light_green bg-tab_bg' : 'border-light_border'}`}
+                        className = {`h-14 w-1/4 md:w-full md:pl-5 flex justify-center md:justify-start items-center hover:text-light_green hover:bg-tab_bg border-b-2 md:border-0 md:border-l-2 ${jobPath === 'jamly' ? 'border-light_green text-light_green bg-tab_bg' : 'border-light_border'}`}
                         onClick = { () => {setJobPath('jamly');}}
                     >
                         Jamly
@@ -74,21 +73,21 @@ const WorkExperience = () => {
 
                     <Link
                         to={'/abi1'}
-                        className = {`h-1/4 w-1/4 md:w-full md:pl-5 flex justify-center md:justify-start  items-center hover:text-light_green hover:bg-tab_bg border-b-2 md:border-0 md:border-l-2 ${jobPath === 'abi1' ? 'border-light_green text-light_green bg-tab_bg' : 'border-light_border'}`}
+                        className = {`h-14 w-1/4 md:w-full md:pl-5 flex justify-center md:justify-start  items-center hover:text-light_green hover:bg-tab_bg border-b-2 md:border-0 md:border-l-2 ${jobPath === 'abi1' ? 'border-light_green text-light_green bg-tab_bg' : 'border-light_border'}`}
                         onClick = { () => {setJobPath('abi1');}}
                     >
                         AbinBev
                     </Link>
                     <Link
                         to={'/abi2'}
-                        className = {`h-1/4 w-1/4 md:w-full md:pl-5 flex justify-center md:justify-start items-center hover:text-light_green hover:bg-tab_bg border-b-2 md:border-0 md:border-l-2 ${jobPath === 'abi2' ? 'border-light_green text-light_green bg-tab_bg' : 'border-light_border'}`}
+                        className = {`h-14 w-1/4 md:w-full md:pl-5 flex justify-center md:justify-start items-center hover:text-light_green hover:bg-tab_bg border-b-2 md:border-0 md:border-l-2 ${jobPath === 'abi2' ? 'border-light_green text-light_green bg-tab_bg' : 'border-light_border'}`}
                         onClick = { () => {setJobPath('abi2');}}
                     >
                         AbinBev
                     </Link>
                     <Link
                         to={'/fmdq'}
-                        className = {`h-1/4 w-1/4 md:w-full md:pl-5 flex justify-center md:justify-start items-center hover:text-light_green hover:bg-tab_bg border-b-2 md:border-0 md:border-l-2 ${jobPath === 'fmdq' ? 'border-light_green text-light_green bg-tab_bg' : 'border-light_border'}`}
+                        className = {`h-14 w-1/4 md:w-full md:pl-5 flex justify-center md:justify-start items-center hover:text-light_green hover:bg-tab_bg border-b-2 md:border-0 md:border-l-2 ${jobPath === 'fmdq' ? 'border-light_green text-light_green bg-tab_bg' : 'border-light_border'}`}
                         onClick = { () => {setJobPath('fmdq');}}
                     >
                         FMDQ 

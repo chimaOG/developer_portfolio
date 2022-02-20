@@ -3,12 +3,13 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
 
-const HeaderLink = ({address, num, title, aligning}) => {
+const MobileHeaderLink = ({address, num, title, aligning, hideMenu}) => {
     return (
 
          <Link 
             smooth
             className='ml-8'
+            onClick={() => hideMenu('false')}
             to={`#${address}`}>
             <p className={`text-text_grey hover:text-light_green text-sm font-serif ${aligning} `}> 
                  <span className='text-light_green mr-0.5'>{num} </span> {title}
@@ -17,6 +18,6 @@ const HeaderLink = ({address, num, title, aligning}) => {
     )
 }
 
-export default HeaderLink
+export default MobileHeaderLink
 
 // activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500}
