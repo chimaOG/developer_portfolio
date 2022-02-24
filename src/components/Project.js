@@ -1,7 +1,6 @@
 import React from 'react';
 
 import LeftProject from './LeftProject';
-import RightProject from './RightProject';
 
 const Project = () => {
     return (
@@ -15,7 +14,6 @@ const Project = () => {
             </div>
             <div className = 'mt-20'>
                 <LeftProject />
-                <RightProject />
             </div>
         </div>
     )

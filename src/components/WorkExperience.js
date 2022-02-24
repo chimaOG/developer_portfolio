@@ -35,7 +35,7 @@ const WorkExperience = () => {
             company: 'AbInBev',
             period: 'February 2022 - April,2021',
             points: [
-                'Trained, tested, and deployed instance segmentation and object detection models to track product visibility, pricing information and marketing effectiveness. Deployment of these models led to a 13% increase in sales volume in Nigeria (930k USD).',
+                'Trained, tested, and deployed instance segmentation and object detection models to track product visibility, pricing information and marketing effectiveness. Deployment of these models led to a 10.2% increase in sales volume in Nigeria (930k USD).',
                 'Managed the end-to-end computer vision model development process from dataset curation to algorithm selection, model training, model testing and deployment.',
                 'Implemented custom OCR model for extracting pricing information from price posters in key sales venues.',
             ]
@@ -53,7 +53,7 @@ const WorkExperience = () => {
     ]
 
     return (
-        <div className = 'md:ml-36 mt-48' id='work_experience'>
+        <div className = 'md:ml-24 mt-48' id='work_experience'>
             <div className = 'flex items-center'>
                 <p className={`text-title_colors  text-2xl md:text-3xl font-serif w-96`}> 
                     <span className='text-light_green mr-3'>02. </span> Where I've Worked
@@ -93,7 +93,7 @@ const WorkExperience = () => {
                         FMDQ 
                     </Link>
                 </div>
-                <div className = 'w-4/5  mt-8 md:mt-2'>
+                <div className = 'w-4/5 lg:w-4/6  mt-8 md:mt-2'>
                     <Routes>
                         <Route path = '/' element = { <JobDetails  jobData={jobs[0]} />} />
                         <Route path = '/abi1' element = { <JobDetails jobData={jobs[1]}  />} />
