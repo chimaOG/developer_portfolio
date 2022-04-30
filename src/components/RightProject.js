@@ -13,7 +13,7 @@ const RightProject = ({projectDetails : {name, technologies, description, gitLin
                 <div>
                     
                 </div>
-                <a href = '#' target='blank' className = 'w-full flex justify-end'>
+                <a href = {projLink} target='blank' className = 'w-full flex justify-end'>
                     <img src={imgLink} 
                     className = ' relative w-full h-80 md:h-96 md:w-7/12  rounded-lg'  
                 />

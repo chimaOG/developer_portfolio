@@ -7,7 +7,7 @@ const LeftProject = ({projectDetails : {name, technologies, description, gitLink
     return (
         <div className = 'relative min-h-min'>
             <div className = {`relative w-full`}>
-                <a href = 'https://paulstar.herokuapp.com/' target='blank' >
+                <a href = {projLink} target={projLink} >
                     <img src={imgLink} 
                     className = ' relative w-full h-80 md:h-96 md:w-7/12  rounded-lg'  
                    />
